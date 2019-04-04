@@ -1,0 +1,9 @@
+title: Schema for Jenkins Node labels setter
+type: object
+additionalItems:
+  type: object
+  minProperties: 1
+  additionalItems:
+    type: array
+    items:
+      type: string
